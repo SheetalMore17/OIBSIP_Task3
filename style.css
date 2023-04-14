@@ -1,0 +1,109 @@
+/*style.css */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgb(20, 19, 19);
+    font-size: 20px;
+  }
+
+  body {
+    color: rgb(237, 218, 218);
+    font-size:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+  }
+  .container{
+    background-color:rgb(62, 197, 246);
+  }
+
+  .title {
+    color: #222;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(28, 75, 7);
+  }
+  .temperature-converter {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+    min-width: 320px;
+    width: 35rem;
+    height: 25rem;
+    font-weight: 500;
+  }
+
+  .result {
+    text-align: center;
+    margin: 60px 0;
+  }
+
+  .result-heading {
+    font-size: 25px;
+    font-weight: 60;
+  }
+  .celsius-value{
+    border: 2px solid rgb(3, 19, 11);
+    height: 50px;
+    margin-top: 20px;
+
+  }
+  #celsius {
+    font-size: 30px;
+    height: 30px;
+  }
+  label {
+    font-size: 25px;
+    margin-bottom: 5px;
+  }
+  input,
+  select {
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(6, 103, 43);
+    padding: 8px;
+    margin-bottom: 15px;
+
+  }
+  input:focus {
+    border: 1px solid #bcbbec;
+  }
+  .degree-type {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+  }
+  .degree-field {
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+  }
+  option {
+    background-color: #d7d7dd;
+  }
+
+  #convert-btn {
+    background-color: rgb(218, 29, 209);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 60px;
+    padding: 12px 80px;
+    transition: all 0.3s ease-in;
+  }
+
+  #convert-btn:hover {
+    background: linear-gradient(to bottom, #4a47e7, #322fda);
+  }
